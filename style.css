@@ -1,25 +1,123 @@
-*{
+/* NAVBAR */
+body{
+  margin: 0;
+  font-family:"sofia pro Black",Arial, Helvetica, sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #0065c3;
+  padding: 10px;
+  color: white;
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.navbar-item{
+margin-left: 20px;
+cursor: pointer;
+}
+.navbar-right .navbar-item{
+  border-radius: 30px;
+  border: 2px solid white ;
+  padding:5px 25px ;
+}
+.product{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.product-item img{
+  max-width: 60%;
+  padding: 20px;
+}
+.product-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+.product-item-column{
+  flex-direction: column;
+}
+.navbar-item a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li::before {
+  content: "•";
+  margin-right: 5px;
+}
+footer{
+  text-decoration: none;
+  display: flex;
+
+}
+.footer li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  align-content: center;
+  background-color: #0065c3;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+.subscribe{
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid white ;
+  padding:5px 25px ;
+  height: 20%;
+  color: white;
+}
+/* *{
    margin: 0;
     padding: 0;
 }
-nav{
+.navbar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
-    background-color:rgb(94, 94, 199);
+    background-color:rgb(78, 121, 220);
     width: 100%;
-   
+    box-shadow: 0 2px 5px rgba(0, 0,0, 1);
+    margin-right: 7px;
 }
 .list-item{
     display: flex;
     text-decoration: white;
-    text-align: center;
+    list-style: none;
 }
 .list-item a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* padding: 5px;
 }
 .main{
-    width: 70%;
+    width: 100%;
     display: block;
     
 }
@@ -42,7 +140,7 @@ margin-right: 40px;
 nav li a {
     text-decoration: underline;
     word-spacing: 5%;
-}
+} */ 
 
 /* header {
     background-color: #f2f2f2;
